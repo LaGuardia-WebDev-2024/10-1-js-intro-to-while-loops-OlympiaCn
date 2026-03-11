@@ -5,6 +5,12 @@ setup = function() {
   fill(15, 0, 255);
 
   // a handy dandy ruler across the top
+  var message = "loops";
+  var y = 40;
+  while (y < 400) {
+      text(message, 30, y);
+      y += 20;
+  }
   var x = 0;
   text(x, x, 20); 
   text(x+50, x+50, 20);
